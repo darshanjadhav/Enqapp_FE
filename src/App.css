@@ -1,0 +1,10 @@
+* { font-size: 40px;}
+body {
+  background-color: aqua;
+}
+.err {
+  color: red;
+}
+textarea {
+  resize: none;
+}

@@ -21,7 +21,7 @@ export default function Enquiry() {
 
     const onSubmit = (values, {resetForm}) => {
         let data = {"name": values.name, "phone": values.phone, "query": values.query};
-        let urladd = "http://localhost:9000/save";
+        let urladd = "https://enqapp-be-git-main-darshanjadhav.vercel.app/save";
         axios.post(urladd, data)
         .then(res => {
             alert("we will get back to u");
